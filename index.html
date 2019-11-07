@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/szczys.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>State of the Hackaday</h1>
+				<h4>15 Years of Hardware</h4>
+			</section>
+			<section>
+				<h1 style="margin:0;text-align:right;">Mike Szczys</h1>
+				<p style="margin:0;text-align:right;font-size:0.7em">Editor in Chief</p>
+				<h5 style="margin:0;text-align:right;font-size:0.7em">Hackaday.com // Hackaday.io</h5>
+				<p style="margin:0;text-align:right;font-size:0.7em">@szczys</p>
+				<img class="stretch" style="background:none; border:none; box-shadow:none;"
+					src="images/proxima-wrencher-hackaday_wide.png" />
+			</section>
+			<section>
+				<section>
+					<h2>What is Hackaday?</h2>
+					<img class="stretch" src="images/confused-about-hackaday.jpg" />
+				</section>
+				<section>
+					<h2>“Hackaday is the Common Link in the Collective Brain”</h2>
+					<div style="text-align: left; margin-left:60%;">
+						<p style="margin-bottom: 0;">–Elliot Williams</p>
+						<p style="font-size: 0.3em; margin-left:10em; margin-top:0;">Managing Editor, Hackaday</p>
+					</div>
+					<aside class="notes">Hardest thing is describing what Hackaday is all about</aside>
+				</section>
+				<section>
+					<div class="twoimage">
+						<img class="stretch imagefirst" src="images/ask-hackaday-smartwatch.jpg" />
+						<img class="stretch imagesecond" src="images/ask-hackaday-schematics.jpg" />
+					</div>
+					<aside class="notes">Comes up with the writers when we write “Ask Hackaday:” articles</aside>
+				</section>
+				<section>
+					<h1>We are all Hackaday -- it’s a global virtual hackerspace that changes as people move in and out
+						of the three rings of our circus with their projects and work</h1>
+				</section>
+				<section>
+					<h1>We hire writers from the Hackaday community and then follow their interests</h1>
+				</section>
+				<section>
+					<h2>Supplyframe's support</h2>
+					<ul>
+						<li>safeguard Hackaday’s Editorial Independence</li>
+						<li>Making long-form original content possible</li>
+						<li>Hackaday.io</li>
+						<li>Hackaday Prize</li>
+						<li>Supercon and other live events</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Great Stuff We Did This Year</h1>
+				</section>
+				<section>
+					<div class="stretch" style="display:flex; align-items:center;">
+						<img class="stretch" style="float:left; width: 30%;" src="images/mobile-nonresponsive.jpg" />
+						<h2 style="float:left; width: 30%; text-align: left; padding-left: 1em; line-height: 0.9em;">New
+							Mobile Look!</h2>
+						<img class="stretch" style="float: left; width: 30%; margin-left:2%;"
+							src="images/mobile-responsive.jpg" />
+					</div>
+				</section>
+				<section>
+					<video class="stretch" style="border: 4px solid #fff" data-autoplay="true" loop="true">
+						<source src="images/hackaday-responsive-design.mp4" type="video/mp4"></video>
+				</section>
+				<section>
+					<h2>Hackaday.io app!</h2>
+					<img class="stetch" src="images/hackadayio-app-wide.jpg" />
+					<p>https://hackaday.io/project/46/log/164492</p>
+				</section>
+				<section>
+					<h2>Podcast!</h2>
+					<img class="stretch" src="images/microphone.jpg" />
+					<h6>43 episodes and counting...</h6>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Notable Articles</h1>
+				</section>
+				<section>
+					<video class="stretch" data-autoplay="true" loop="true">
+						<source src="images/week-in-security-mp4" type="video/mp4"></video>
+					<h4>New Column: Week in Security</h4>
+					<aside class="notes">
+						code used to make this slideshow video:
+						ffmpeg -framerate 0.4 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p -vf
+						pad="width=ceil(iw/2)*2:height=ceil(ih/2)*2" out.mp4
+					</aside>
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-scramjet-mach-5.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-scramjet-ultrasonic-weapons.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-scramjet-nuclear-powered-missiles.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-scramjet-nuclear-monitoring.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-goodbye-chevy-volt.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-ohio-keyfobs.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-debunking-brain-computer-interfaces.jpg" />
+				</section>
+				<section>
+						<img class="stretch" src="images/articles-yapo-lightbulbs.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-yapo-oldcomponents.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-shorting-power-rails-raspberry-pi.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-USB-c-raspberry-pi-discovery.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-USB-c-raspberry-pi.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-USB-c-overview.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-spacex-dragon-setbacks.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-rocket-mixologist.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-v-programming-language.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-progamming-languages-ada.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-progamming-languages-cpp.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-transmission-lines.jpg" />
+				</section>
+				<section>
+					<img class="stretch" src="images/articles-south-american-power-outages.jpg" />
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Beautiful Hardware contest</h1>
+				</section>
+				<section>
+					<h1>Examples</h1>
+				</section>
+			</section>
+			<section>
+				<h1>Hackaday is 15 Years Old</h1>
+				<aside class="notes">You just can’t cover all of it in one article or in what’s left of my 30 minute
+					talk</aside>
+			</section>
+			<section>
+				<h1>What I think is most incredible is to see how technology has changed in that time.</h1>
+				<aside class="notes">Kids these days have it so easy!</aside>
+				<aside class="notes">Life goes pretty fast, if you don’t pay attention it will pass you by</aside>
+			</section>
+			<section>
+				<section>By the numbers</section>
+				<section># of articles per day</section>
+				<section># of authors by month</section>
+				<section>firsts</section>
+			</section>
+			<section>
+				<section>
+					<h1>Wrapping Up: Availability of modules</h1>
+				</section>
+				<section>
+					<h1>publish Nexus Technologies</h1>
+					<aside class="notes">Hardware is still hard but this helps a lot</aside>
+				</section>
+				<section>
+					<h1>Advancements in microcontrollers usher in software engineers… as Arduino made uC accessible,
+						MicroPython is further breaking down barriers</h1>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>The superconference badge is microcosm of what I think is to come</h1>
+				</section>
+				<section>
+					<h1>FPGAs are the future -- they let you invent your own hardware!</h1>
+					<aside class="notes">These are only now becoming a common appearance as the open toolsets make them
+						hacker friendly</aside>
+				</section>
+				<section>
+					<h1>RISC-V is super-desirable for companies that want to control their designs, meaning industry
+						adoption give enthusiast and engineer adoption a boost</h1>
+				</section>
+				<section>
+					<h1>Sprite_TM did the heavy lifting by far, but there’s a ton of team and community involvement in
+						everything from solving hard problems in the SOC, to making a pain-free toolchain install,
+						writing the games, designing the workshops, and documenting all of it.</h1>
+					<aside class="notes">This is truly distributed engineering and doing hard things for the fun of it.
+					</aside>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>We need an age of enlightenment</h1>
+				</section>
+				<section>
+					<h1>Encourage Open</h1>
+				</section>
+				<section>
+					<h1>Normalize learning and trying out new things as a entertainment</h1>
+				</section>
+				<section>
+					<h1>Be open and be inclusive</h1>
+				</section>
+				<section>
+					<h1>Long live Hackaday</h1>
+				</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			hash: true,
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+</body>
+
+</html>
