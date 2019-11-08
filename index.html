@@ -45,41 +45,42 @@
 					<img class="stretch" src="images/confused-about-hackaday.jpg" />
 				</section>
 				<section>
+						<div class="twoimage">
+							<img class="stretch imagefirst" src="images/ask-hackaday-smartwatch.jpg" />
+							<img class="stretch imagesecond" src="images/ask-hackaday-schematics.jpg" />
+						</div>
+						<aside class="notes">Comes up with the writers when we write “Ask Hackaday:” articles</aside>
+				</section>
+				<section>
+					<img class="stretch plain" src="images/hackadayio-project-grid.jpg" />
+					<aside class="notes">We are all Hackaday -- it’s a global virtual hackerspace that changes as people move in and out
+						of the three rings of our circus with their projects and work</aside>
+				</section>
+				<section>
 					<h2>“Hackaday is the Common Link in the Collective Brain”</h2>
 					<div style="text-align: left; margin-left:60%;">
-						<p style="margin-bottom: 0;">–Elliot Williams</p>
-						<p style="font-size: 0.3em; margin-left:10em; margin-top:0;">Managing Editor, Hackaday</p>
-					</div>
-					<aside class="notes">Hardest thing is describing what Hackaday is all about</aside>
+							<p style="margin-bottom: 0;">–Elliot Williams</p>
+							<p style="font-size: 0.3em; margin-left:10em; margin-top:0;">Managing Editor, Hackaday</p>
+						</div>
+						<aside class="notes">Hardest thing is describing what Hackaday is all about</aside>
+					</section>
+					<section>
+						<img class="stretch plain" src="images/proxima-wrencher-hackaday_wide.png" />
+						<aside class="notes">
+							<h2>Supplyframe's support</h2>
+							<ul>
+								<li>safeguard Hackaday’s Editorial Independence</li>
+								<li>Making long-form original content possible</li>
+								<li>Hackaday.io</li>
+								<li>Hackaday Prize</li>
+								<li>Supercon and other live events</li>
+							</ul>
+						</aside>
+					</section>
 				</section>
 				<section>
-					<div class="twoimage">
-						<img class="stretch imagefirst" src="images/ask-hackaday-smartwatch.jpg" />
-						<img class="stretch imagesecond" src="images/ask-hackaday-schematics.jpg" />
-					</div>
-					<aside class="notes">Comes up with the writers when we write “Ask Hackaday:” articles</aside>
-				</section>
-				<section>
-					<h1>We are all Hackaday -- it’s a global virtual hackerspace that changes as people move in and out
-						of the three rings of our circus with their projects and work</h1>
-				</section>
-				<section>
-					<h1>We hire writers from the Hackaday community and then follow their interests</h1>
-				</section>
-				<section>
-					<h2>Supplyframe's support</h2>
-					<ul>
-						<li>safeguard Hackaday’s Editorial Independence</li>
-						<li>Making long-form original content possible</li>
-						<li>Hackaday.io</li>
-						<li>Hackaday Prize</li>
-						<li>Supercon and other live events</li>
-					</ul>
-				</section>
-			</section>
-			<section>
-				<section>
-					<h1>Great Stuff We Did This Year</h1>
+					<section>
+					<h1>Great Things Happened in 2019</h1>
 				</section>
 				<section>
 					<div class="stretch" style="display:flex; align-items:center;">
@@ -104,10 +105,27 @@
 					<img class="stretch" src="images/microphone.jpg" />
 					<h6>43 episodes and counting...</h6>
 				</section>
+				<section data-background-video="images/hackchatposters.mp4" data-background-video-loop="loop">
+					<aside class="notes">
+						code used to make this slideshow video:
+						ffmpeg -framerate 0.4 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p -vf
+						pad="width=ceil(iw/2)*2:height=ceil(ih/2)*2" out.mp4
+					</aside>
+				</section>
+				<section>
+					<img class="stretch plain" src="images/hackadayiocontests.jpg" />
+				</section>
+				<section data-background-video="images/hackadayioartcontests.mp4" data-background-video-loop="loop">
+					<aside class="notes">
+						code used to make this slideshow video:
+						ffmpeg -framerate 0.4 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p -vf
+						pad="width=ceil(iw/2)*2:height=ceil(ih/2)*2" out.mp4
+					</aside>
+				</section>
 			</section>
 			<section>
 				<section>
-					<h1>Notable Articles</h1>
+					<h1>Our Editorial Trajectory</h1>
 				</section>
 				<section>
 					<video class="stretch" data-autoplay="true" loop="true">
@@ -181,14 +199,6 @@
 				</section>
 			</section>
 			<section>
-				<section>
-					<h1>Beautiful Hardware contest</h1>
-				</section>
-				<section>
-					<h1>Examples</h1>
-				</section>
-			</section>
-			<section>
 				<h1>Hackaday is 15 Years Old</h1>
 				<aside class="notes">You just can’t cover all of it in one article or in what’s left of my 30 minute
 					talk</aside>
@@ -206,21 +216,59 @@
 			</section>
 			<section>
 				<section>
-					<h1>Wrapping Up: Availability of modules</h1>
+					<h2>Living in the Future</h2>
+					<h6>import &lt;TimeOfFlight.hardware&gt;</h6>
+					<img class="stretch" src="images/modules-LIDAR.jpg" />
+					<p>https://hackaday.io/project/100965</p>
 				</section>
 				<section>
-					<h1>publish Nexus Technologies</h1>
+					<h2>Nexus Technologies</h2>
+					<img class="stretch" src="images/Nexus-Technologies.jpg" />
+					<p>https://hackaday.com/?p=385048</p>
 					<aside class="notes">Hardware is still hard but this helps a lot</aside>
 				</section>
 				<section>
-					<h1>Advancements in microcontrollers usher in software engineers… as Arduino made uC accessible,
-						MicroPython is further breaking down barriers</h1>
+					<div>
+						<figure class="imagefirst">
+							<img src="images/modules-avr-gps.jpg" />
+							<figcaption>2007</figcaption>
+						</figure>
+						<figure class="imagesecond">
+							<img src="images/Modules-arduino-gps.jpg" />
+							<figcaption>2011</figcaption>
+						</figure>
+					</div>
+					<aside class="notes">
+						Hardware is still hard but this helps a lots
+						2007 Example: https://hackaday.com/2007/07/15/sms-tracking-with-a-gps-gsm-enabled-avr/
+						2011 Example: https://hackaday.com/2011/05/24/i2c-arduino-gps-shield/
+					</aside>
+				</section>
+				<section>
+					<figure class="imagefirst">
+						<img src="images/stm32-usb-hid-in-c.png" />
+						<figcaption>STM32 in C (OpenCM3)</figcaption>
+					</figure>
+					<figure class="imagesecond">
+						<img src="images/micropython.png" />
+						<figcaption>MicroPython</figcaption>
+					</figure>
+				</section>
+				<section>
+					<img class="stretch" src="images/2019-supercon-badge.jpg" />
+					<h6>Microcosm of What is to Come</h6>
+					<aside class="notes">
+						<ul>
+							<li>The superconference badge is microcosm of what I think is to come</li>
+							<li>FPGAs are the future -- they let you invent your own hardware!</li>
+						</u>
+					</aside>
+				</section>
+				<section>
+					<img class="plain" src="images/lattice-ecp5-fpga.png" />
 				</section>
 			</section>
 			<section>
-				<section>
-					<h1>The superconference badge is microcosm of what I think is to come</h1>
-				</section>
 				<section>
 					<h1>FPGAs are the future -- they let you invent your own hardware!</h1>
 					<aside class="notes">These are only now becoming a common appearance as the open toolsets make them
