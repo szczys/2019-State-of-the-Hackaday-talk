@@ -1,8 +1,8 @@
-# The World is Hiring Hackers: Why a Personal Journey of Discovery Has a Place on the Modern Engineer's Resume
-## A talk presented by Mike Szczys at 2019 Maker Faire Rome
+# 2019 State of the Hackaday
+## A look back on the last 15 years, and what the future holds
 
 These slides can be view at:
-https://szczys.github.io/2019-makerfaire-rome-talk/#/
+https://szczys.github.io/2019-State-of-the-Hackaday-talk/index.html#/
 
 Slide are based on the reveal.js platform found here:
 https://github.com/hakimel/reveal.js
